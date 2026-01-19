@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Library Dashboard</title>
+    <link rel="stylesheet" href="CSScode.css">
+</head>
+<body>
+
+    <header>
+        <h1>📚 Virtual Library</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Books</a></li>
+                <li><a href="#">My Shelf</a></li>
+                <li><a href="#">Profile</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="search-section">
+        <input type="text" id="searchInput" placeholder="Search for books..." />
+        <button onclick="searchBook()">Search</button>
+    </section>
+
+    <section class="book-container" id="bookList">
+        <!-- Books will appear here using JS -->
+    </section>
+
+    <footer>
+        <p>© 2025 Virtual Library | All Rights Reserved</p>
+    </footer>
+
+    <script src="jscode.js"></script>
+</body>
+</html>
